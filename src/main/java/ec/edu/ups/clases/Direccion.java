@@ -11,7 +11,8 @@ public class Direccion {
     private String provincia;
     private String pais;
 
-    public Direccion() {}
+    public Direccion() {
+    }
 
     public Direccion(TipoDireccion tipoDireccion, String callePrincipal, String calleSecundaria, String numeracion, String ciudad, String provincia, String pais) {
         this.callePrincipal = callePrincipal;
@@ -20,6 +21,7 @@ public class Direccion {
         this.ciudad = ciudad;
         this.provincia = provincia;
         this.pais = pais;
+        this.tipoDireccion = tipoDireccion;
     }
 
     public String getCallePrincipal() {
